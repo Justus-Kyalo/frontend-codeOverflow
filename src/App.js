@@ -10,6 +10,11 @@ function App() {
         <Route exact path="/">
               <SplashPage />
         </Route>
+        
+        <Route exact path="/questions/:questionId">
+     <LeftSidebar />
+     <QuestionShow/>
+ </Route>
 
       </Switch>
       </div>
