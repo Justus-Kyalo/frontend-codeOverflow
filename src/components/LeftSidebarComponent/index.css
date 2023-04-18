@@ -1,0 +1,61 @@
+.left-sidebar{
+    color: #525960;
+    height: 100%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    width: 191px;
+    height: auto;
+}
+
+.left-sidebar-content{
+    margin-top: 10px;
+    position: sticky;
+    width: 100%;
+    top: 48px;
+    justify-content: flex-start;
+}
+
+.left-sidebar-link{
+    width: 154px;
+    height: 33px;
+    color: #525960;
+}
+
+.left-sidebar-home{
+    width: 187px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.left-sidebar-public{
+    width: 146px;
+    height: 14.38px;
+    margin-bottom: 4px;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+}
+
+.left-sidebar-questions{
+    padding: 4px 4px 4px 14px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+}
+
+.left-sidebar-tags{
+    padding: 4px 4px 4px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.left-sidebar-users{
+    padding: 4px 4px 4px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.left-sidebar-selected{
+    background-color: #F1F2F3;
+    border-right: 3px solid #F48225;
+}
