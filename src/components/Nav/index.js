@@ -1,11 +1,17 @@
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import './Navbar.css'
 import logo from '../../images/logo.png'
-
-
+import { useDispatch, useSelector } from "react-redux";
+import * as sessionActions from "../../store/session";
+import { useState } from "react";
 
 const Navbar = () => {
-    
+    const dispatch = useDispatch();
+    const history = useHistory();
+    const sessionUser = useSelector(state => state.session.user);
+    const [query, setQuery] = useState("");
+    let sessionLink;
+    let signUpLink;
 
 
     const handleSearch = e => {
@@ -13,9 +19,17 @@ const Navbar = () => {
         history.push(`/questions?search=${query.replaceAll(" ", "+")}`);
     };
 
-    
+    const handleLogOut = () => {
+        dispatch(sessionActions.logout(sessionUser.id))
+        return history.push('/');
+      }
 
-     
+      if(!sessionUser){ //login
+        sessionLink = <Link to="/login"><button className="login">Log in</button></Link>;
+        signUpLink =  <Link to="/signup"><button className="signup">Sign up</button></Link>;
+      } else{ //logout
+        sessionLink = <button onClick={handleLogOut} className="login">Log out</button>
+      }
 
 
   
@@ -27,7 +41,7 @@ const Navbar = () => {
                 <div className="nav-left">
                     <Link to="/" className="nav-logo">
                     <img className="codeOverflow-logo-img" src={logo} alt="codeOverflow"></img>
-                    
+                     codeOverflow
                     </Link>
                 </div>
                 <div className="nav-right">
@@ -38,7 +52,10 @@ const Navbar = () => {
                             <div><input className="nav-search" placeholder="Search..." onChange={(e)=>setQuery(e.target.value)}></input></div>
                         </form>
                     </div>
-                    
+                    <div className="session-links">
+                        {sessionLink}
+                        {signUpLink}
+                    </div>
                 </div>
             </div>
         </nav>

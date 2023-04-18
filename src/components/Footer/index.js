@@ -33,7 +33,12 @@ const Footer = () => {
                             <a href="" target="_blank">
                                 <li>Github</li>
                             </a>
-                            
+                            <a href="" target="_blank">
+                                <li>Github</li>
+                            </a>
+                            <a href="" target="_blank">
+                                <li>Github</li>
+                            </a>
                         </ul>
                     </div>
                 </div>

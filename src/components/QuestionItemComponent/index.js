@@ -4,6 +4,7 @@ import {Link} from "react-router-dom";
 import { fetchUser } from "../../store/users";
 import './index.css'
 import moment from 'moment';
+import TagsComponent from "../TagIndexComponent/tags.js"
 
 const QuestionItem = ({question}) => {
     const { id, title, body, authorId, createdAt } = question;

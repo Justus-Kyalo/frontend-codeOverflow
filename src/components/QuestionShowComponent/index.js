@@ -1,10 +1,13 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useHistory, useParams } from "react-router-dom";
+import { deleteQuestion, getQuestion, fetchAllQuestions } from "../../store/questions";
 import "./index.css";
 import moment from "moment";
 import AnswerForm from "../AnswerFormComponent";
 import AnswerIndex from "../AnswerIndexComponent";
+import Vote from "../VoteComponent";
+import TagsComponent from "../TagIndexComponent/tags.js"
 
 const QuestionShow = () => {
   window.scrollTo(0, 0);
@@ -27,7 +30,12 @@ const QuestionShow = () => {
     } else {
       history.push("/login");
     }
-  }
+  };
+
+  const handleDelete = (e) => {
+    dispatch(deleteQuestion(questionId));
+    history.push("/questions");
+  };
 
   const dispatchQuestion = () => {
     dispatch(fetchAllQuestions())

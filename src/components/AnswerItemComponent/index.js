@@ -2,6 +2,9 @@ import { useDispatch, useSelector } from "react-redux";
 import {Link} from "react-router-dom";
 import './index.css'
 import moment from 'moment';
+import { deleteAnswer } from "../../store/answers";
+import { fetchAnswers } from "../../store/answers";
+import Vote from "../VoteComponent";
 import { fetchAllQuestions } from "../../store/questions";
 
 const AnswerItem = ({answer}) => {

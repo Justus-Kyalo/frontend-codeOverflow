@@ -35,6 +35,7 @@ const SplashPage = () => {
                         <div id="speech-bubble-container">
                             <div className="speech-bubble">
                                 <div id="left-content">
+                                    
                                     <h1 className="speech-h1">Find the best answer to your technical question, help others</h1>
                                     <Link to="/signup">
                                     <button id="join-community-button">Join the Moringa community</button>

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchAnswers } from "../../store/answers";
 import { fetchAllQuestions } from "../../store/questions";
-
+import csrfFetch from "../../store/csrf";
 import './index.css'
 
 const AnswerForm = ({questionId}) => {
