@@ -1,6 +1,4 @@
-.nav-box{
-    height: 50px;
-}
+
 
 .navbar{
     position: fixed;
@@ -11,18 +9,22 @@
     width: 100%;
     box-shadow: 0 0 10px 0px #CCCCCC;
     z-index: 99;
-    height: 50px;
+    height: 80px;
 
 }
 
 .nav-container{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .nav-left{
     display: flex;
+    flex-direction: row;
+    align-items: center;
     margin-left: 40px;
 }
 
@@ -33,21 +35,16 @@
     margin-right: 40px;
 }
 
-.nav-logo{
-    margin-left: 10px;
-}
 
 .nav-search{
     display: flex;
-}
-
-.nav-search{
     width: 400px;
     margin-right: 10px;
     height: 33px;
     margin-bottom: 4px;
-    padding-left: 25px;
+    padding-left: 30px;
     margin-right: 40px;
+    border-radius: 20px;
 }
 
 .magnifying-glass{
@@ -59,12 +56,11 @@
 }
 
 .login{
-    width: 65px;
-    height: 39px;
     margin-right: 5px;
     background-color: #e1ecf4;
     border-radius: 3px;
     border: 1.5px solid #79A7C7;
+    padding: 10px 20px;
     color: #39739D;
     box-shadow: inset 0 0.5px 0 0 white;
 }
@@ -74,9 +70,8 @@
 }
 
 .signup{
-    width: 66px;
-    height: 39px;
     background-color: #0a95ff;
+    padding: 10px 20px;
     color: white;
     border-radius: 3px;
     border: 1.5px solid #0a95ff;
@@ -91,4 +86,11 @@
     height: 50px;
     width: 50px;
     border-radius: 50%;
+}
+
+.session-links{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
 }
