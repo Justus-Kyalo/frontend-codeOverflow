@@ -13,11 +13,11 @@ const SplashPage = () => {
 
   useEffect(() => {
     const jobs = [
-      "developer",
-      "technical mentor",
-      "system admin",
-      "student",
-      "data scientiest",
+      "Developer",
+      "Technical Mentor",
+      "System Admin",
+      "Student",
+      "Data Scientiest",
       "Product Designer",
     ];
     let i = 1;
@@ -38,16 +38,16 @@ const SplashPage = () => {
       <>
         <div id="container">
           <div id="black-box" className="row align-items-center">
-            <div className="col">
-              <h1 className="animation-container">
-                Every{" "}
-                <span className="job" ref={jobRef}>
-                  developer
-                </span>{" "}
-                <br />
-                has a tab open on{" "}
-                <span className="syntaxError">codeOverflow</span>
-              </h1>
+          <div className="col">
+            <h1 className="animation-container">
+              Every{" "}
+              <span className="job" ref={jobRef}>
+                developer
+              </span>{" "}
+             
+              <br />
+              has a tab open on <span className="syntaxError">codeOverflow</span>
+            </h1>
             </div>
             <div className="col">
               <div id="speech-bubble-container">
@@ -73,6 +73,7 @@ const SplashPage = () => {
                 </div>
               </div>
             </div>
+            
           </div>
         </div>
       </>
