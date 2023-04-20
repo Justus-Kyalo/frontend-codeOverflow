@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from '../../images/logo.png'
 import './index.css';
 
 const Footer = () => {
@@ -10,15 +11,17 @@ const Footer = () => {
           });
     }
     return (
-
         <footer>
             <div className="footer-container">
                 <div className="footer-left">
                     <div className="navigation">
                         <a className="main" onClick={scrollToTop}>
-                            codeOverflow
+                            <Link to="/" className="nav-logo">
+                            <img className="codeOverflow-logo-img" src={logo} alt="codeOverflow" />
+                            <h1 className="codeOverflow-logo-text-footer">codeOverflow</h1>
+                            </Link>
                         </a>
-                        <ul>
+                        <ul> 
                             <Link to="/questions">
                                 <li>FAQ</li>
                             </Link>
@@ -35,18 +38,17 @@ const Footer = () => {
                                 <li>Github</li>
                             </a>
                             <a href="" target="_blank">
-                                <li>Github</li>
+                                <li>LinkedIn</li>
                             </a>
                             <a href="" target="_blank">
-                                <li>Github</li>
+                                <li>Twitter</li>
                             </a>
                         </ul>
                     </div>
                 </div>
             </div>
-            </footer>
+        </footer>
     )
-
 }
 
 export default Footer;
