@@ -8,6 +8,8 @@
     background-color: #f8f9f9;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     width: 100%;
+    
+    
 }
 
 #black-box{
@@ -15,6 +17,7 @@
     padding: 32px;
     background-color: #383d43;
     height: 100vh;
+    background-image: url("https://moringaschool.com/wp-content/themes/moringa/public/images/default.jpg");
 }
 
 #speech-bubble-container{
