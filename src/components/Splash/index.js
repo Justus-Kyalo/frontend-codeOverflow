@@ -59,7 +59,7 @@ const SplashPage = () => {
                     </h1>
                     <Link to="/signup">
                       <button id="join-community-button">
-                        Join the Moringa community
+                        Join the codeOverflow Moringa community
                       </button>
                     </Link>
                     <div id="search-content">

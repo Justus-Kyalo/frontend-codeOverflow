@@ -57,7 +57,11 @@ ul{
 .signup-svg{
     
     align-items: center;
-    margin-right: 10px;
+    margin-right: 10px;     
+}
+
+.signup-content{
+    color: rgb(187, 187, 187);
 }
 
 .login-button:hover{
