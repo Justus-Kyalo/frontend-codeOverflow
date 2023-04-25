@@ -85,7 +85,7 @@ img.failory-logo-image {
 
 h3.footer-failory-name {
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #ffffff;
   display: block;
   font-family: Lato, sans-serif;
   font-size: 20px;
@@ -103,19 +103,18 @@ p.footer-description-failory {
   font-family: Lato, sans-serif;
   font-size: 17px;
   font-weight: 300;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   line-height: 1.5em;
   margin-bottom: 16px;
   margin-top: 15px;
   padding-left: 14%;
 }
 
-
-.codeOverflow-logo-img{
+.codeOverflow-logo-img {
   margin-left: 10%;
 }
 
-.codeOverflow-logo-text-footer{
+.codeOverflow-logo-text-footer {
   font-size: 22px;
   color: white;
 }
@@ -156,7 +155,7 @@ div.w-col.w-col-7.w-col-small-6.w-col-tiny-7 {
 
 h3.footer-titles {
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #ffffff;
   display: block;
   font-family: Lato, sans-serif;
   font-size: 20px;
@@ -174,12 +173,11 @@ p.footer-links {
   font-family: Lato, sans-serif;
   font-size: 17px;
   font-weight: 300;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   line-height: 1.8em;
   margin-bottom: 16px;
   margin-top: 2px;
 }
-
 
 a:active {
   outline: 0;
@@ -196,7 +194,7 @@ span.footer-link {
 }
 
 span.footer-link:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 400;
 }
 
@@ -232,7 +230,7 @@ div.column-center-mobile.w-col.w-col-4 {
 a.footer-social-network-icons.w-inline-block {
   background-color: transparent;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #ffffff;
   display: inline-block;
   font-family: Lato, sans-serif;
   font-size: 17px;
@@ -241,7 +239,7 @@ a.footer-social-network-icons.w-inline-block {
   margin-right: 8px;
   margin-top: 10px;
   max-width: 100%;
-  opacity: .8;
+  opacity: 0.8;
   text-decoration: none;
 }
 
@@ -269,7 +267,7 @@ p.footer-description {
   font-family: Lato, sans-serif;
   font-size: 17px;
   font-weight: 300;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   line-height: 1.5em;
   margin-bottom: 16px;
   margin-top: 15px;
@@ -284,4 +282,8 @@ strong.link-email-footer {
   font-weight: 400;
   line-height: 1.2em;
   text-decoration: none;
+}
+
+.faq {
+  color: rgb(189, 189, 189);
 }
