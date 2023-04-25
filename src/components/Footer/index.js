@@ -35,7 +35,12 @@ const Footer = () => {
                   </div>
                   <div class="w-col w-col-5 w-col-small-6 w-col-tiny-5">
                     <h3 class="footer-titles">Other</h3>
-                    <p class="footer-links"><a href=""><span class="footer-link">Sponsor Us!<br/></span></a><a href=""><span class="footer-link">Open Startup<br/></span></a><a href=""><span class="footer-link"></span></a><a href=""><span class="footer-link">Contribute<br/></span></a><a href=""><span class="footer-link">FAQ</span></a><strong><br/></strong></p>
+                    <p class="footer-links"><a href=""><span class="footer-link">Sponsor Us!<br/>
+                      </span></a><a href=""><span class="footer-link">Open Startup<br/>
+                      </span></a><a href=""><span class="footer-link"></span></a><a href=""><span class="footer-link">Contribute<br/>
+                      </span></a><a href=""><span class="footer-link"><Link to="/questions" className="faq">FAQ</Link></span></a>
+                    </p>
+                    {/* <p class="footer-links"><a href=""><span class="footer-link">Sponsor Us!<br/></span></a><a href=""><span class="footer-link">Open Startup<br/></span></a><a href=""><span class="footer-link"></span></a><a href=""><span class="footer-link">Contribute<br/></span></a><a href=""><span class="footer-link">FAQ</span></a><strong><br/></strong></p> */}
                   </div>
                 </div>
               </div>
