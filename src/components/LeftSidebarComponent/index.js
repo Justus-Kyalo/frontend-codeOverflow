@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, Link} from "react-router-dom";
 import './index.css'
 
 const LeftSidebar = () => {
@@ -7,7 +7,7 @@ const LeftSidebar = () => {
         <>
             <div className="left-sidebar">
                 <div className="left-sidebar-content d-none d-xl-block">
-                    <NavLink exact to="/" activeClassName="left-sidebar-selected" className="left-sidebar-questions left-sidebar-link">Home</NavLink>
+                    <NavLink exact to="/" activeClassName="left-sidebar-selected" className="left-sidebar-home left-sidebar-link">Home</NavLink>
                     <ul>
                         <li className="left-sidebar-public">PUBLIC</li>
 

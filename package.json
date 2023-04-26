@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-oauth/google": "^0.10.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "google-auth-library": "^8.7.0",
     "gsap": "^3.11.5",
     "moment": "^2.29.4",
     "react": "^18.2.0",

@@ -31,11 +31,21 @@ const Footer = () => {
                 <div class="w-row">
                   <div class="w-col w-col-7 w-col-small-6 w-col-tiny-7">
                     <h3 class="footer-titles">Learn</h3>
-                    <p class="footer-links"><a href="" target="_blank"><span class="footer-link">Failed Startups<br/></span></a><a href=""><span class="footer-link">Successful Startups<br/></span></a><a href=""><span class="footer-link">Blog</span></a><span><br/></span><a href=""><span class="footer-link">Entrepreneurial Tools<br/></span></a><a href=""><span class="footer-link">Startup Cemetery<br/></span></a><a href=""><span class="footer-link">Podcast</span></a><strong><br/></strong></p>
+                    <p class="footer-links"><a href="" target="_blank"><span class="footer-link">Failed Startups<br/>
+                      </span></a><a href=""><span class="footer-link">Successful Startups<br/>
+                      </span></a><a href=""><span class="footer-link">Blog</span></a><span><br/>
+                      </span><a href=""><span class="footer-link">Entrepreneurial Tools<br/>
+                      </span></a><a href=""><span class="footer-link">Startup Cemetery<br/>
+                      </span></a><a href=""><span class="footer-link">Podcast</span></a>
+                    </p>
                   </div>
                   <div class="w-col w-col-5 w-col-small-6 w-col-tiny-5">
                     <h3 class="footer-titles">Other</h3>
-                    <p class="footer-links"><a href=""><span class="footer-link">Sponsor Us!<br/></span></a><a href=""><span class="footer-link">Open Startup<br/></span></a><a href=""><span class="footer-link"></span></a><a href=""><span class="footer-link">Contribute<br/></span></a><a href=""><span class="footer-link">FAQ</span></a><strong><br/></strong></p>
+                    <p class="footer-links"><a href=""><span class="footer-link">Sponsor Us!<br/>
+                      </span></a><a href=""><span class="footer-link">Open Startup<br/>
+                      </span></a><a href=""><span class="footer-link"></span></a><a href=""><span class="footer-link">Contribute<br/>
+                      </span></a><a href=""><span class="footer-link"><Link to="/questions" className="faq">FAQ</Link></span></a>
+                    </p>
                   </div>
                 </div>
               </div>
