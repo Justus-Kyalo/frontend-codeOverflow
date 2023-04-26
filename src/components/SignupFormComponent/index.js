@@ -61,7 +61,6 @@ function SignupFormPage() {
                   </Link>
                 </div>
         </div>
-
               </div>
           </div>
     </div>

@@ -18,6 +18,10 @@ div.container-footer.w-container:after {
   grid-row-start: 1;
 }
 
+.faq{
+  color: rgb(189, 189, 189);
+}
+
 div.container-footer.w-container:before {
   content: " ";
   display: table;

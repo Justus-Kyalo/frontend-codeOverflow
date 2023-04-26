@@ -77,10 +77,9 @@ const QuestionForm = () => {
                                 </textarea>
                             </div>
                             <div className="label-box">
-                                <label className="tags label">
+                                <label className="tags-label">
                                     Tags
-                                </label>
-                                <p className="label-text">
+                                </label>                                <p className="label-text">
                                     Add up to 5 tags to describe what your question is about.
                                 </p>
                                 <div className="tags-input-container"> 

@@ -28,15 +28,14 @@ function App() {
               {sessionUser ? <LeftSidebar/> : ""}
               <SplashPage />
         </Route>
-
+        
           <Route path="/login">
               <LoginFormPage />
           </Route>
-
+         
           <Route path="/signup">
               <SignupFormPage />
           </Route>
-
           <Route exact path="/users/:userId">
               <UserPage/>
           </Route>
