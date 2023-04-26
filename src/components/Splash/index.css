@@ -35,6 +35,7 @@
     flex-basis: 50%;
     padding: 16px;
     line-height: 17px;
+    border-radius: 10%;
 }
 
 #left-content{
@@ -46,6 +47,7 @@
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 
 .glass-lock{
@@ -67,7 +69,7 @@
     margin-bottom: 12px;
 }
 
-.speech-bubble-right-corner{
+/* .speech-bubble-right-corner{
     background-color: #ffe3cd;
     width: 32px;
     height: 32px;
@@ -79,7 +81,7 @@
     display: block;
     clip-path: polygon(18px 0, 32px 0, 0 40px, 0 38px, 0 0, 18px 0);
     border-radius: 0 5px;
-}
+} */
 
 .speech-bubble-left-corner{
     background-color: #cde9fe;
