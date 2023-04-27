@@ -2,7 +2,7 @@
     color: #525960;
     height: 100%;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    width: 191px;
+    /* width: 191px; */
     height: auto;
 }
 
@@ -21,11 +21,11 @@
 }
 
 .left-sidebar-home{
-    width: 155px;
+    width: 50px;
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    padding-left: 18%;
+    margin-left: 73%;
 }
 
 .left-sidebar-public{
@@ -35,7 +35,7 @@
     font-size: 11px;
     display: flex;
     align-items: center;
-    margin-left: 18%;
+    margin-left: 73%;
 }
 
 .left-sidebar-questions{
@@ -43,13 +43,14 @@
     width: 170px;
     display: flex;
     align-items: center;
-    margin-left: 9%;
+    margin-left: 40%;
 }
 
 .left-sidebar-tags{
     padding: 4px 4px 4px 30px;
     display: flex;
     align-items: center;
+    margin-left: 60%;
 }
 
 .left-sidebar-users{
@@ -60,5 +61,5 @@
 
 .left-sidebar-selected{
     background-color: #F1F2F3;
-    border-right: 3px solid #F48225;
+    border-right: 4px solid #F48225;
 }
