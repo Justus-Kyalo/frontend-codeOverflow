@@ -68,7 +68,7 @@ const SplashPage = () => {
                         <Link to="/questions/"> search content</Link>
                       </span>
                     </div>
-                    <div className="speech-bubble-right-corner"></div>
+                    {/* <div className="speech-bubble-right-corner"></div> */}
                   </div>
                 </div>
               </div>
