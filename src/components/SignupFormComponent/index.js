@@ -25,7 +25,7 @@ function SignupFormPage() {
   };
 
 
-  if (sessionUser) return <Redirect to="/" />;
+  if (sessionUser) return <Redirect to="/login" />;
 
 
   return (
@@ -44,13 +44,13 @@ function SignupFormPage() {
                 <form className="signup-form credentials" onSubmit={handleSubmit}>
                 {errors.map(error => <li key={error}>{error}</li>)}
                     <label className="su-label"htmlFor="sun">Display name</label>
-                      <input type="text" className="su-input" value={display_name} id="sun" placeholder="enter desired username"onChange={(e) => setDisplayName(e.target.value)}></input>
+                      <input type="text" className="su-input" value={display_name} id="sun" placeholder="Enter desired username"onChange={(e) => setDisplayName(e.target.value)}></input>
 
                     <label className="su-label" htmlFor="sul">Email</label>
-                      <input type="text" className="su-input"value={email} id="sul" placeholder="email" onChange={(e) => setEmail(e.target.value)} required></input>
+                      <input type="text" className="su-input"value={email} id="sul" placeholder="example@gmial.com" onChange={(e) => setEmail(e.target.value)} required></input>
 
                     <label className="su-label" htmlFor="sup">Password</label>
-                      <input type="password" value={password} className="su-input" id="sup" placeholder="password" onChange={(e) => setPassword(e.target.value)} required></input>
+                      <input type="password" value={password} className="su-input" id="sup" placeholder="Password" onChange={(e) => setPassword(e.target.value)} required></input>
 
                     <button className="login-button sign-up-button">Sign up</button>
                 </form>
